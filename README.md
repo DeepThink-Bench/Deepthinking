@@ -3,8 +3,8 @@
 Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs
 </h1>
 <p align="center">
-  <a href="https://github.com/zelizhao/DeepThinkBench.github.io"><b>[🌐 Website]</b></a> •
-  <a href="https://github.com/zelizhao/DeepThinkBench"><b>[🐱 GitHub]</b></a>
+  <a href="https://deepthink-bench.github.io/DeepThink-Bench/"><b>[🌐 Website]</b></a> •
+  <a href="https://bgithub.xyz/DeepThink-Bench/DeepThink-Bench"><b>[🐱 GitHub]</b></a>
   <br>
 </p>
 <p align="center">
@@ -13,7 +13,7 @@ This is a repository for building an unified framework and benchmark for DeepThi
 # 💡 Abstract
 Recent advancements in large language models (LLMs) have led to the development of large reasoning models (LRMs), which incorporate intermediate deep thinking to guide decision-making. These LRMs have demonstrated promising results in a range of domains, including commonsense reasoning, mathematics, and code generation. However, the precise role of deep thinking in improving model performance remains underexplored, and no universally accepted framework exists to evaluate its impact. To address this gap, we introduce \textsc{TGBench}, a comprehensive benchmarking framework designed to evaluate the effects of deep thinking on instruction-based LLMs. Our experiments reveal three key findings: 1) incorporating deep thinking from LRMs significantly enhances the performance of instruction-based LLMs, particularly in tasks that require multi-step reasoning; 2) deep thinking improves both accuracy and efficiency, though the extent of improvement varies depending on the task; and 3) we propose three distinct rankings (i.e., ranking single LLMs, ranking single LRMs, and ranking combined LLMs), providing a holistic view of deep thinking. These contributions highlight the potential of integrating deep thinking to advance instruction-based LLM capabilities, and we advocate for further research on optimizing deep thinking integration to enhance model scalability, robustness, and real-world applicability across diverse tasks.
 <p align="center">
-    <img src="https://github.com/zelizhao/CorrectBench/blob/main/Self-Correction-Benchmark/overview.png" width="1000">
+    <img src="https://bgithub.xyz/zelizhao/CorrectBench/blob/main/Self-Correction-Benchmark/overview.png" width="1000">
         <br>
     <em>An overview of the CorrectBench framework.</em>
 </p>
