@@ -1,0 +1,16 @@
+{
+    "model_info": {
+        "provider": "zhipuai",
+        "name": "glm-zero-preview",
+        "model_method": "api"
+    },
+    "api_key_info": {
+        "api_keys": ""
+    },
+    "params": {
+        "temperature": 0.1,
+        "seed": 100,
+        "gpus": [],
+        "max_output_tokens": 1000
+    }
+}

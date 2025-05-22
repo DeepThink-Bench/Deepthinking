@@ -1,0 +1,22 @@
+{
+    "ACC": 0,
+    "empty_answers": 2,
+    "results": [
+        {
+            "question": "Q: Write a function to reverse words in a given string.\n\nPlease solve the question above, then store the final answer in \\boxed{answer}.",
+            "output": null,
+            "final_answer": null,
+            "correct_answer": "def reverse_words(s):\r\n        return ' '.join(reversed(s.split()))",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        },
+        {
+            "question": "Q: Write a function to find the maximum value in record list as tuple attribute in the given tuple list.\n\nPlease solve the question above, then store the final answer in \\boxed{answer}.",
+            "output": null,
+            "final_answer": null,
+            "correct_answer": "def maximum_value(test_list):\r\n  res = [(key, max(lst)) for key, lst in test_list]\r\n  return (res) ",
+            "correct": false,
+            "error": "Final answer and answer do not match"
+        }
+    ]
+}
